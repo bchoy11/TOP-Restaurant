@@ -1,0 +1,44 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+#title{
+    color: red;
+    text-align: center;
+    margin: 5rem;
+}
+
+.story-container{
+    text-align: center;
+}
+
+.links-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mini-container{
+    margin: 2rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#footer{
+    text-align: center;
+}
+
+li{
+    cursor: pointer;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    list-style: none;
+}
