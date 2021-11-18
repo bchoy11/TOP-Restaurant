@@ -1,11 +1,11 @@
 import story from "./story";
-import homeContent from "./home_content";
+import homeContainers from "./home_content";
 
 export default function homePage(){
     const home = document.createElement('div');
-    home.className = 'home-content';
+    home.className = 'home-containers';
     home.appendChild(story());
-    home.appendChild(homeContent());
+    // home.appendChild(homeContainers());
 
     return home;
 }

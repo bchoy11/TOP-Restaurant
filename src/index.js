@@ -2,6 +2,8 @@ import './style.css';
 import header from './header.js';
 import homePage from './home/home.js';
 import footer from './footer';
+import clear from './clear';
+import menu from './menu/menu';
 
 const content = document.getElementById('content');
 const navList = ['Home','Menu','Contact','Locations'];
@@ -21,14 +23,20 @@ navList.map(tab=>{
 nav.appendChild(ul);
 
 function changeTab(tab){
-    if(tab==='Home'){
-       content.insertBefore(homePage(),document.getElementById('footer')); 
+    if(tab === 'Home'){
+        clear(content);
+        content.appendChild(header());
+        content.appendChild(homePage()); 
+    }
+    if(tab === 'Menu'){
+        clear(content);
+        content.appendChild(menu());
     }
 }
 
-content.appendChild(nav);
-content.appendChild(header());
-content.appendChild(footer());
+changeTab('Home');
+document.body.insertBefore(nav,document.getElementById('content'));
+document.body.appendChild(footer(),document.getElementById('content'));
 
 
 

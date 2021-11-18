@@ -1,4 +1,4 @@
-export default function homeContent(){
+export default function homeContainers(){
     const container = document.createElement('div');
     const links = ['Locations', 'Menu', 'Franchise'];
 

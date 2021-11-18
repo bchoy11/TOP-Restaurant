@@ -1,15 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Karla:wght@400;700&family=Solway&display=swap');
+
+:root{
+    --title-font: "Julee";
+    --dark-color: #455954;
+    --content-font:"Karla";
+    --content-font2: "Solway";
+    --content-color: #565c5e;
+    --light-color: #dfdbd8;
+}
+
+*{
+    font-family: var(--content-font);
+    color: var(--content-color);
+}
+
 html{
     height: 100%;
 }
 
 body{
     height: 100%;
+    margin: 0;
+    background-color: var(--light-color);
 }
 
-#title{
-    color: red;
+#title, .page-title{
+    font-family: var(--title-font);
+    color: var(--dark-color);
     text-align: center;
-    margin: 5rem;
+    margin: 4rem;
+    font-size: 5rem;
 }
 
 .story-container{
@@ -26,6 +46,11 @@ body{
     margin: 2rem;
 }
 
+nav{
+    background-color: var(--dark-color);
+    padding: .25rem;
+}
+
 ul{
     display: flex;
     flex-direction: row;
@@ -34,6 +59,8 @@ ul{
 
 #footer{
     text-align: center;
+    position: absolute;
+    bottom: 0;
 }
 
 li{
@@ -41,4 +68,19 @@ li{
     margin-left: 2rem;
     margin-right: 2rem;
     list-style: none;
+    color: var(--light-color);
+}
+
+
+
+#bobaicon{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
