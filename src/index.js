@@ -1,9 +1,10 @@
 import './style.css';
-import header from './header.js';
-import homePage from './home/home.js';
+import homePage from './pages/home/home.js';
 import footer from './footer';
 import clear from './clear';
-import menu from './menu/menu';
+import menu from './pages/menu-container';
+import locations from './pages/locations';
+import contact from './pages/contact';
 
 const content = document.getElementById('content');
 const navList = ['Home','Menu','Contact','Locations'];
@@ -25,12 +26,19 @@ nav.appendChild(ul);
 function changeTab(tab){
     if(tab === 'Home'){
         clear(content);
-        content.appendChild(header());
         content.appendChild(homePage()); 
     }
     if(tab === 'Menu'){
         clear(content);
         content.appendChild(menu());
+    }
+    if(tab === 'Locations'){
+        clear(content);
+        content.appendChild(locations());
+    }
+    if(tab === 'Contact'){
+        clear(content);
+        content.appendChild(contact());
     }
 }
 

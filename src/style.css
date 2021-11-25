@@ -7,6 +7,13 @@
     --content-font2: "Solway";
     --content-color: #565c5e;
     --light-color: #dfdbd8;
+
+    --content-margin: 5rem;
+    --menu-padding: 2rem;
+    --title-fontsize: 5rem;
+    --story-fontsize: 1rem;
+    --li-fontsize: 1rem;
+    --icon-height-width: 5rem;
 }
 
 *{
@@ -21,19 +28,24 @@ html{
 body{
     height: 100%;
     margin: 0;
-    background-color: var(--light-color);
+    background-color: #dfdbd8;
 }
 
 #title, .page-title{
     font-family: var(--title-font);
     color: var(--dark-color);
     text-align: center;
-    margin: 4rem;
-    font-size: 5rem;
+    margin-bottom: 4rem;
+    font-size: var(--title-fontsize);
+}
+
+.home-container{
+    margin: 0 var(--content-margin) var(--content-margin) var(--content-margin);
 }
 
 .story-container{
     text-align: center;
+    font-size: var(--story-fontsize);
 }
 
 .links-container{
@@ -63,7 +75,8 @@ ul{
     bottom: 0;
 }
 
-li{
+.nav-link{
+    font-size: var(--li-fontsize);
     cursor: pointer;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -71,16 +84,49 @@ li{
     color: var(--light-color);
 }
 
-
-
-#bobaicon{
-    height: 5rem;
-    width: 5rem;
+.icon{
+    height: var(--icon-height-width);
+    width: var(--icon-height-width);
     border-radius: 50%;
 }
 
-#menu{
+#menu, #locations, #contact{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.menu-items{
+    background-color: white;
+    border-radius: 20px;
+    margin: var(--content-margin);
+    padding: var(--menu-padding);
+}
+
+.drinks-menu, .toppings-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.drinks, .toppings{
+    font-weight: bold;
+}
+
+/* @media(min-width: 426px){
+    #title, .page-title{
+        font-size: 5rem;
+    }
+
+    .story-container{
+        font-size: 1rem;
+    }
+
+    li{
+        font-size: 1rem;
+    }
+
+    .icon{
+        height: 5rem;
+        width: 5rem; 
+    }
+} */
