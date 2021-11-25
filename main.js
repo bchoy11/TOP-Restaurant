@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Julee&family=Karla:wght@400;700&family=Solway&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \":root{\\r\\n    --title-font: \\\"Julee\\\";\\r\\n    --dark-color: #455954;\\r\\n    --content-font:\\\"Karla\\\";\\r\\n    --content-font2: \\\"Solway\\\";\\r\\n    --content-color: #565c5e;\\r\\n    --light-color: #dfdbd8;\\r\\n}\\r\\n\\r\\n*{\\r\\n    font-family: var(--content-font);\\r\\n    color: var(--content-color);\\r\\n}\\r\\n\\r\\nhtml{\\r\\n    height: 100%;\\r\\n}\\r\\n\\r\\nbody{\\r\\n    height: 100%;\\r\\n    margin: 0;\\r\\n    background-color: var(--light-color);\\r\\n}\\r\\n\\r\\n#title, .page-title{\\r\\n    font-family: var(--title-font);\\r\\n    color: var(--dark-color);\\r\\n    text-align: center;\\r\\n    margin: 4rem;\\r\\n    font-size: 5rem;\\r\\n}\\r\\n\\r\\n.story-container{\\r\\n    text-align: center;\\r\\n}\\r\\n\\r\\n.links-container{\\r\\n    display: flex;\\r\\n    flex-direction: row;\\r\\n    justify-content: center;\\r\\n}\\r\\n\\r\\n.mini-container{\\r\\n    margin: 2rem;\\r\\n}\\r\\n\\r\\nnav{\\r\\n    background-color: var(--dark-color);\\r\\n    padding: .25rem;\\r\\n}\\r\\n\\r\\nul{\\r\\n    display: flex;\\r\\n    flex-direction: row;\\r\\n    justify-content: center;\\r\\n}\\r\\n\\r\\n#footer{\\r\\n    text-align: center;\\r\\n    position: absolute;\\r\\n    bottom: 0;\\r\\n}\\r\\n\\r\\nli{\\r\\n    cursor: pointer;\\r\\n    margin-left: 2rem;\\r\\n    margin-right: 2rem;\\r\\n    list-style: none;\\r\\n    color: var(--light-color);\\r\\n}\\r\\n\\r\\n\\r\\n\\r\\n#bobaicon{\\r\\n    height: 5rem;\\r\\n    width: 5rem;\\r\\n    border-radius: 50%;\\r\\n}\\r\\n\\r\\n#menu{\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n    align-items: center;\\r\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Julee&family=Karla:wght@400;700&family=Solway&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \":root{\\r\\n    --title-font: \\\"Julee\\\";\\r\\n    --dark-color: #455954;\\r\\n    --content-font:\\\"Karla\\\";\\r\\n    --content-font2: \\\"Solway\\\";\\r\\n    --content-color: #565c5e;\\r\\n    --light-color: #dfdbd8;\\r\\n\\r\\n    --content-margin: 5rem;\\r\\n    --menu-padding: 2rem;\\r\\n    --title-fontsize: 5rem;\\r\\n    --story-fontsize: 1rem;\\r\\n    --li-fontsize: 1rem;\\r\\n    --icon-height-width: 5rem;\\r\\n}\\r\\n\\r\\n*{\\r\\n    font-family: var(--content-font);\\r\\n    color: var(--content-color);\\r\\n}\\r\\n\\r\\nhtml{\\r\\n    height: 100%;\\r\\n}\\r\\n\\r\\nbody{\\r\\n    height: 100%;\\r\\n    margin: 0;\\r\\n    background-color: #dfdbd8;\\r\\n}\\r\\n\\r\\n#title, .page-title{\\r\\n    font-family: var(--title-font);\\r\\n    color: var(--dark-color);\\r\\n    text-align: center;\\r\\n    margin-bottom: 4rem;\\r\\n    font-size: var(--title-fontsize);\\r\\n}\\r\\n\\r\\n.home-container{\\r\\n    margin: 0 var(--content-margin) var(--content-margin) var(--content-margin);\\r\\n}\\r\\n\\r\\n.story-container{\\r\\n    text-align: center;\\r\\n    font-size: var(--story-fontsize);\\r\\n}\\r\\n\\r\\n.links-container{\\r\\n    display: flex;\\r\\n    flex-direction: row;\\r\\n    justify-content: center;\\r\\n}\\r\\n\\r\\n.mini-container{\\r\\n    margin: 2rem;\\r\\n}\\r\\n\\r\\nnav{\\r\\n    background-color: var(--dark-color);\\r\\n    padding: .25rem;\\r\\n}\\r\\n\\r\\nul{\\r\\n    display: flex;\\r\\n    flex-direction: row;\\r\\n    justify-content: center;\\r\\n}\\r\\n\\r\\n#footer{\\r\\n    text-align: center;\\r\\n    position: absolute;\\r\\n    bottom: 0;\\r\\n}\\r\\n\\r\\n.nav-link{\\r\\n    font-size: var(--li-fontsize);\\r\\n    cursor: pointer;\\r\\n    margin-left: 2rem;\\r\\n    margin-right: 2rem;\\r\\n    list-style: none;\\r\\n    color: var(--light-color);\\r\\n}\\r\\n\\r\\n.icon{\\r\\n    height: var(--icon-height-width);\\r\\n    width: var(--icon-height-width);\\r\\n    border-radius: 50%;\\r\\n}\\r\\n\\r\\n#menu, #locations, #contact{\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n    align-items: center;\\r\\n}\\r\\n\\r\\n.menu-items{\\r\\n    background-color: white;\\r\\n    border-radius: 20px;\\r\\n    margin: var(--content-margin);\\r\\n    padding: var(--menu-padding);\\r\\n}\\r\\n\\r\\n.drinks-menu, .toppings-menu{\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n}\\r\\n\\r\\n.drinks, .toppings{\\r\\n    font-weight: bold;\\r\\n}\\r\\n\\r\\n/* @media(min-width: 426px){\\r\\n    #title, .page-title{\\r\\n        font-size: 5rem;\\r\\n    }\\r\\n\\r\\n    .story-container{\\r\\n        font-size: 1rem;\\r\\n    }\\r\\n\\r\\n    li{\\r\\n        font-size: 1rem;\\r\\n    }\\r\\n\\r\\n    .icon{\\r\\n        height: 5rem;\\r\\n        width: 5rem; \\r\\n    }\\r\\n} */\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -130,63 +130,73 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/header.js":
-/*!***********************!*\
-  !*** ./src/header.js ***!
-  \***********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ header)\n/* harmony export */ });\nfunction header(){\r\n    const header = document.createElement('div');\r\n    const title = document.createElement('h1');\r\n\r\n    title.id='title';\r\n    title.innerHTML=\"Koala Tea\";\r\n    header.className='header';\r\n\r\n    header.appendChild(title);\r\n    return header;\r\n}\r\n\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/header.js?");
-
-/***/ }),
-
-/***/ "./src/home/home.js":
-/*!**************************!*\
-  !*** ./src/home/home.js ***!
-  \**************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ homePage)\n/* harmony export */ });\n/* harmony import */ var _story__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./story */ \"./src/home/story.js\");\n/* harmony import */ var _home_content__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home_content */ \"./src/home/home_content.js\");\n\r\n\r\n\r\nfunction homePage(){\r\n    const home = document.createElement('div');\r\n    home.className = 'home-containers';\r\n    home.appendChild((0,_story__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\r\n    // home.appendChild(homeContainers());\r\n\r\n    return home;\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/home/home.js?");
-
-/***/ }),
-
-/***/ "./src/home/home_content.js":
-/*!**********************************!*\
-  !*** ./src/home/home_content.js ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ homeContainers)\n/* harmony export */ });\nfunction homeContainers(){\r\n    const container = document.createElement('div');\r\n    const links = ['Locations', 'Menu', 'Franchise'];\r\n\r\n    container.className='links-container';\r\n\r\n    links.map(link=>{\r\n        const miniContainer = document.createElement('div');\r\n        const heading = document.createElement('h2');\r\n        heading.textContent=link;\r\n\r\n        heading.className = 'font-border';\r\n        miniContainer.className = 'mini-container';\r\n        miniContainer.id = link.toLowerCase();\r\n        miniContainer.appendChild(heading);\r\n        container.appendChild(miniContainer);\r\n    });\r\n\r\n    return container;\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/home/home_content.js?");
-
-/***/ }),
-
-/***/ "./src/home/story.js":
-/*!***************************!*\
-  !*** ./src/home/story.js ***!
-  \***************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ story)\n/* harmony export */ });\nfunction story(){\r\n    const story = document.createElement('div');\r\n    const title = document.createElement('h2');\r\n    const description = document.createElement('p');\r\n\r\n    story.className='story-container';\r\n    title.innerHTML='Our Story';\r\n    description.innerHTML='Koala Tea started with a vision and a dream. Today, it still is.'\r\n\r\n    story.appendChild(title);\r\n    story.appendChild(description);\r\n\r\n    return story;\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/home/story.js?");
-
-/***/ }),
-
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _header_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header.js */ \"./src/header.js\");\n/* harmony import */ var _home_home_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home/home.js */ \"./src/home/home.js\");\n/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer */ \"./src/footer.js\");\n/* harmony import */ var _clear__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./clear */ \"./src/clear.js\");\n/* harmony import */ var _menu_menu__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./menu/menu */ \"./src/menu/menu.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nconst content = document.getElementById('content');\r\nconst navList = ['Home','Menu','Contact','Locations'];\r\nconst nav = document.createElement('nav');\r\nconst ul = document.createElement('ul');\r\n\r\nnav.id='nav-bar';\r\n\r\nnavList.map(tab=>{\r\n    const li = document.createElement('li');\r\n    li.className='nav-link';\r\n    li.innerHTML=tab;\r\n    li.addEventListener('click',()=>{changeTab(tab)});\r\n    ul.appendChild(li);\r\n})\r\n\r\nnav.appendChild(ul);\r\n\r\nfunction changeTab(tab){\r\n    if(tab === 'Home'){\r\n        (0,_clear__WEBPACK_IMPORTED_MODULE_4__[\"default\"])(content);\r\n        content.appendChild((0,_header_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])());\r\n        content.appendChild((0,_home_home_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])()); \r\n    }\r\n    if(tab === 'Menu'){\r\n        (0,_clear__WEBPACK_IMPORTED_MODULE_4__[\"default\"])(content);\r\n        content.appendChild((0,_menu_menu__WEBPACK_IMPORTED_MODULE_5__[\"default\"])());\r\n    }\r\n}\r\n\r\nchangeTab('Home');\r\ndocument.body.insertBefore(nav,document.getElementById('content'));\r\ndocument.body.appendChild((0,_footer__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(),document.getElementById('content'));\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _pages_home_home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages/home/home.js */ \"./src/pages/home/home.js\");\n/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer */ \"./src/footer.js\");\n/* harmony import */ var _clear__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./clear */ \"./src/clear.js\");\n/* harmony import */ var _pages_menu_container__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/menu-container */ \"./src/pages/menu-container.js\");\n/* harmony import */ var _pages_locations__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/locations */ \"./src/pages/locations.js\");\n/* harmony import */ var _pages_contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/contact */ \"./src/pages/contact.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nconst content = document.getElementById('content');\r\nconst navList = ['Home','Menu','Contact','Locations'];\r\nconst nav = document.createElement('nav');\r\nconst ul = document.createElement('ul');\r\n\r\nnav.id='nav-bar';\r\n\r\nnavList.map(tab=>{\r\n    const li = document.createElement('li');\r\n    li.className='nav-link';\r\n    li.innerHTML=tab;\r\n    li.addEventListener('click',()=>{changeTab(tab)});\r\n    ul.appendChild(li);\r\n})\r\n\r\nnav.appendChild(ul);\r\n\r\nfunction changeTab(tab){\r\n    if(tab === 'Home'){\r\n        (0,_clear__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(content);\r\n        content.appendChild((0,_pages_home_home_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])()); \r\n    }\r\n    if(tab === 'Menu'){\r\n        (0,_clear__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(content);\r\n        content.appendChild((0,_pages_menu_container__WEBPACK_IMPORTED_MODULE_4__[\"default\"])());\r\n    }\r\n    if(tab === 'Locations'){\r\n        (0,_clear__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(content);\r\n        content.appendChild((0,_pages_locations__WEBPACK_IMPORTED_MODULE_5__[\"default\"])());\r\n    }\r\n    if(tab === 'Contact'){\r\n        (0,_clear__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(content);\r\n        content.appendChild((0,_pages_contact__WEBPACK_IMPORTED_MODULE_6__[\"default\"])());\r\n    }\r\n}\r\n\r\nchangeTab('Home');\r\ndocument.body.insertBefore(nav,document.getElementById('content'));\r\ndocument.body.appendChild((0,_footer__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(),document.getElementById('content'));\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/menu/menu.js":
-/*!**************************!*\
-  !*** ./src/menu/menu.js ***!
-  \**************************/
+/***/ "./src/pages/contact.js":
+/*!******************************!*\
+  !*** ./src/pages/contact.js ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menu)\n/* harmony export */ });\n/* harmony import */ var _img_bobaicon_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../img/bobaicon.jpg */ \"./src/img/bobaicon.jpg\");\n\r\n\r\nfunction menu(){\r\n    const menu = document.createElement('div');\r\n    const title = document.createElement('h1');\r\n    const bobaImg = new Image();\r\n\r\n    menu.id = 'menu';\r\n\r\n    title.id = 'menu-title';\r\n    title.innerHTML = 'Menu';\r\n    title.className = 'page-title';\r\n\r\n    bobaImg.src = _img_bobaicon_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n    bobaImg.id = 'bobaicon';\r\n\r\n    menu.appendChild(title);\r\n    menu.appendChild(bobaImg);\r\n\r\n    return menu;\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/menu/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ contact)\n/* harmony export */ });\n/* harmony import */ var _img_mail_icon_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../img/mail-icon.png */ \"./src/img/mail-icon.png\");\n\r\n\r\nfunction contact(){\r\n    const contact = document.createElement('div');\r\n    const title = document.createElement('h1');\r\n    const mail = new Image();\r\n\r\n    contact.id = 'contact';\r\n\r\n    title.innerHTML = 'Contact';\r\n    title.className = 'page-title'\r\n    title.id = 'contact-title';\r\n\r\n    mail.src = _img_mail_icon_png__WEBPACK_IMPORTED_MODULE_0__;\r\n    mail.id = 'mail';\r\n    mail.className = 'icon';\r\n\r\n    contact.appendChild(title);\r\n    contact.appendChild(mail);\r\n\r\n    return contact;\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/pages/contact.js?");
+
+/***/ }),
+
+/***/ "./src/pages/home/header.js":
+/*!**********************************!*\
+  !*** ./src/pages/home/header.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ header)\n/* harmony export */ });\nfunction header(){\r\n    const header = document.createElement('div');\r\n    const title = document.createElement('h1');\r\n\r\n    title.id='title';\r\n    title.innerHTML=\"Koala Tea\";\r\n    header.className='header';\r\n\r\n    header.appendChild(title);\r\n    return header;\r\n}\r\n\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/pages/home/header.js?");
+
+/***/ }),
+
+/***/ "./src/pages/home/home.js":
+/*!********************************!*\
+  !*** ./src/pages/home/home.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ homePage)\n/* harmony export */ });\n/* harmony import */ var _story__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./story */ \"./src/pages/home/story.js\");\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header */ \"./src/pages/home/header.js\");\n\r\n\r\n// import homeContainers from \"./home_content\";\r\n\r\nfunction homePage(){\r\n    const home = document.createElement('div');\r\n    home.className = 'home-container';\r\n    home.appendChild((0,_header__WEBPACK_IMPORTED_MODULE_1__[\"default\"])());\r\n    home.appendChild((0,_story__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\r\n    // home.appendChild(homeContainers());\r\n\r\n    return home;\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/pages/home/home.js?");
+
+/***/ }),
+
+/***/ "./src/pages/home/story.js":
+/*!*********************************!*\
+  !*** ./src/pages/home/story.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ story)\n/* harmony export */ });\nfunction story(){\r\n    const story = document.createElement('div');\r\n    const title = document.createElement('h2');\r\n    const description = document.createElement('p');\r\n\r\n    story.className='story-container';\r\n    title.innerHTML='Our Story';\r\n    description.innerHTML='Koala Tea started with a vision and a dream. Today, it still is.'\r\n\r\n    story.appendChild(title);\r\n    story.appendChild(description);\r\n\r\n    return story;\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/pages/home/story.js?");
+
+/***/ }),
+
+/***/ "./src/pages/locations.js":
+/*!********************************!*\
+  !*** ./src/pages/locations.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ locations)\n/* harmony export */ });\n/* harmony import */ var _img_icon_location_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../img/icon-location.svg */ \"./src/img/icon-location.svg\");\n\r\n\r\nfunction locations(){\r\n    const locations = document.createElement('div');\r\n    const title = document.createElement('h1');\r\n    const icon = new Image();\r\n\r\n    locations.id = 'locations';\r\n\r\n    title.id = 'locations-title';\r\n    title.className = 'page-title';\r\n    title.innerHTML = 'Locations';\r\n\r\n    icon.src = _img_icon_location_svg__WEBPACK_IMPORTED_MODULE_0__;\r\n    icon.id = 'location-icon';\r\n    icon.className = 'icon';\r\n\r\n    locations.appendChild(title);\r\n    locations.appendChild(icon);\r\n\r\n    return locations;\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/pages/locations.js?");
+
+/***/ }),
+
+/***/ "./src/pages/menu-container.js":
+/*!*************************************!*\
+  !*** ./src/pages/menu-container.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menu)\n/* harmony export */ });\n/* harmony import */ var _img_bobaicon_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../img/bobaicon.jpg */ \"./src/img/bobaicon.jpg\");\n\r\n\r\nfunction menu(){\r\n    const menu = document.createElement('div');\r\n    const title = document.createElement('h1');\r\n    const bobaImg = new Image();\r\n\r\n    menu.id = 'menu';\r\n\r\n    title.id = 'menu-title';\r\n    title.innerHTML = 'Menu';\r\n    title.className = 'page-title';\r\n\r\n    bobaImg.src = _img_bobaicon_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n    bobaImg.id = 'bobaicon';\r\n    bobaImg.className = 'icon';\r\n\r\n    menu.appendChild(title);\r\n    menu.appendChild(bobaImg);\r\n    menu.appendChild(menuItems());\r\n\r\n    return menu;\r\n}\r\n\r\nfunction menuItems(){\r\n    const menu = {\r\n        Drinks: ['Black Milk Tea','Green Milk Tea', 'Earl Grey Milk Tea','Peach Green Tea','Honey Lemonade with Aloe', 'Royal Artichoke'],\r\n        Toppings: ['Tapioca', 'Lychee Jelly'],\r\n    }\r\n    const menuItems = document.createElement('div');\r\n    const drinksMenu = document.createElement('ul');\r\n    \r\n    menuItems.className = 'menu-items';\r\n    drinksMenu.className = 'drinks-menu';\r\n    \r\n    menu.Drinks.map(drink=>{\r\n        const li = document.createElement('li');\r\n        li.className = 'toppings';\r\n        li.innerHTML = drink;\r\n        drinksMenu.appendChild(li);\r\n    });\r\n\r\n    for(const menuCategory in menu){\r\n        const category = document.createElement('div');\r\n        const categoryTitle = document.createElement('h3');\r\n        const categoryItems = document.createElement('ul');\r\n\r\n        category.id = 'menu-'+menuCategory;\r\n        category.className = 'menu-category';\r\n        categoryTitle.innerHTML = menuCategory;\r\n\r\n        console.log(menuCategory);\r\n\r\n        category.appendChild(categoryTitle);\r\n        console.log('cat1: '+category);\r\n        category.appendChild(drinksMenu);       \r\n        console.log('cat2: '+category);\r\n        menuItems.appendChild(category);\r\n    }\r\n\r\n    // let testdrinkcategory = document.getElementById('menu-drinks');\r\n    // console.log(testdrinkcategory);\r\n    // document.getElementById('menu-drinks').appendChild(drinksMenu);\r\n\r\n    return menuItems;\r\n}\r\n\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/pages/menu-container.js?");
 
 /***/ }),
 
@@ -197,6 +207,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"0c6b61d0f07529751184.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/img/bobaicon.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/icon-location.svg":
+/*!***********************************!*\
+  !*** ./src/img/icon-location.svg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"7e6459d2a9278295ae78.svg\";\n\n//# sourceURL=webpack://restaurant-page/./src/img/icon-location.svg?");
+
+/***/ }),
+
+/***/ "./src/img/mail-icon.png":
+/*!*******************************!*\
+  !*** ./src/img/mail-icon.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"600d574e0bacd94c6973.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/img/mail-icon.png?");
 
 /***/ })
 
