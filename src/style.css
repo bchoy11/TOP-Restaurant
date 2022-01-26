@@ -9,7 +9,7 @@
     --light-color: #dfdbd8;
 
     --content-margin: 5rem;
-    --menu-padding: 2rem;
+    --menu-padding: 3rem;
     --title-fontsize: 5rem;
     --story-fontsize: 1rem;
     --li-fontsize: 1rem;
@@ -22,7 +22,10 @@
 }
 
 html{
-    height: 100%;
+    position: relative;
+    min-height: 100vh;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
 }
 
 body{
@@ -73,6 +76,8 @@ ul{
     text-align: center;
     position: absolute;
     bottom: 0;
+    width: 100%;
+    height: 2.5rem;
 }
 
 .nav-link{
@@ -94,22 +99,40 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2.5rem;
 }
 
 .menu-items{
     background-color: white;
     border-radius: 20px;
     margin: var(--content-margin);
+    margin-top: 2rem;
     padding: var(--menu-padding);
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+
+.menu-title{
+    font-size: 1.25rem;
+    font-weight: bolder;
 }
 
 .drinks-menu, .toppings-menu{
     display: flex;
     flex-direction: column;
+    list-style-type: none;
+    font-size: 1rem;
+    padding-left: 1.5rem;
 }
 
 .drinks, .toppings{
     font-weight: bold;
+    margin: .15rem;
+}
+
+#mail.icon{
+    margin: 1rem;
 }
 
 /* @media(min-width: 426px){

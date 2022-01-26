@@ -2,7 +2,7 @@ import './style.css';
 import homePage from './pages/home/home.js';
 import footer from './footer';
 import clear from './clear';
-import menu from './pages/menu-container';
+import menu from './pages/menu/menu-container';
 import locations from './pages/locations';
 import contact from './pages/contact';
 
