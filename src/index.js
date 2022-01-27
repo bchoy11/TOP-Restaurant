@@ -5,11 +5,17 @@ import clear from './clear';
 import menu from './pages/menu/menu-container';
 import locations from './pages/locations';
 import contact from './pages/contact';
+import koala from './img/koala.jpg';
 
 const content = document.getElementById('content');
 const navList = ['Home','Menu','Contact','Locations'];
+const logo = new Image();
 const nav = document.createElement('nav');
 const ul = document.createElement('ul');
+
+logo.src = koala;
+logo.id = 'logo';
+logo.className = 'logo';
 
 nav.id='nav-bar';
 
@@ -43,6 +49,7 @@ function changeTab(tab){
 }
 
 changeTab('Home');
+document.body.appendChild(logo);
 document.body.insertBefore(nav,document.getElementById('content'));
 document.body.appendChild(footer(),document.getElementById('content'));
 
