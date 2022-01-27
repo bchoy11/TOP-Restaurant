@@ -2,7 +2,7 @@ import './style.css';
 import homePage from './pages/home/home.js';
 import footer from './footer';
 import clear from './clear';
-import menu from './pages/menu/menu-container';
+import menu from './pages/menu/menu';
 import locations from './pages/locations';
 import contact from './pages/contact';
 import koala from './img/koala.jpg';
@@ -16,6 +16,7 @@ const ul = document.createElement('ul');
 logo.src = koala;
 logo.id = 'logo';
 logo.className = 'logo';
+logo.addEventListener('click',()=>{changeTab('Home')});
 
 nav.id='nav-bar';
 
