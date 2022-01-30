@@ -42,6 +42,11 @@ body{
     position: absolute;
     top: .5rem;
     left: 4rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#logo:hover{
+    transform: scale(1.025);
 }
 
 #title, .page-title{
@@ -151,6 +156,10 @@ ul{
 }
 
 /* Contact Page*/
+#contact-submit{
+    width: 33%;
+}
+
 input{
     width: 18rem;
     height: 2rem;
@@ -159,9 +168,17 @@ input{
     padding: .5rem;
 }
 
-/* @media(min-width: 426px){
+#contact-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Issue: Media query not working */
+/* @media (max-width: 770px){
     #title, .page-title{
-        font-size: 5rem;
+        font-size: 10rem;
+        color: white;
     }
 
     .story-container{
